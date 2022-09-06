@@ -1,0 +1,38 @@
+.movies-page-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.content {
+    display: flex;
+}
+
+.line-divide {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    background-color: #666479;
+    height: 2px;
+}
+
+.favorites {
+    color: rgba(0, 0, 0, 0.87);
+    border: 1px solid #666479;
+    padding: 10px;
+    margin-right: 40px;
+    border-radius: 30px;
+    min-width: 210px;
+}
+
+.active {
+    background-color: #1161ed;
+    color: white;
+}

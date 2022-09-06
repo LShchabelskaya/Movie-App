@@ -1,0 +1,36 @@
+.form-wrapper {
+    position: relative;
+    height: 560px;
+    width: 405px;
+    margin: auto;
+    padding: 60px 60px;
+    background-size: cover;
+    box-shadow: 0px 30px 60px -5px #000;
+}
+
+.sign-up {
+    background: url('../../../public/e298548b1d792d159567debea1dff026.jpeg') no-repeat center center #505050;
+}
+
+.login {
+    background: url('../../../public/c2da147083b982d8e5f9b7648c8fe2a5.jpeg') no-repeat center center #505050;;
+}
+
+.header {
+    padding-left: 12px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 100;
+    border-bottom: 2px solid #1161ed;
+}
+
+.header:first-child {
+    padding-left: 0px;
+}
+
+form {
+    padding-top: 30px;
+}
