@@ -3,6 +3,7 @@ import FormWrapper from "../components/FormWrapper/FormWrapper";
 import { useNavigate } from 'react-router';
 import { useSelector, useDispatch } from 'react-redux';
 import { changeData } from '../actions/inputs';
+import '../components/SignUpSteps/Steps.css';
 
 function Login() {
     const navigate = useNavigate();

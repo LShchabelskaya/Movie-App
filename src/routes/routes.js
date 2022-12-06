@@ -5,7 +5,7 @@ const SignUp = lazy(() => import('../pages/SignUp'));
 const Login = lazy(() => import('../pages/Login'));
 const AllMovies = lazy(() => import('../pages/AllMovies/AllMovies'));
 const MovieInfo = lazy(() => import('../pages/MovieInfo'));
-const NotFound = lazy(() => import('../pages/NotFound'));
+const NotFound = lazy(() => import('../pages/NotFound/NotFound'));
 
 function getComponent(Component) {
     const TOKEN = localStorage.getItem('AUTH_TOKEN');
