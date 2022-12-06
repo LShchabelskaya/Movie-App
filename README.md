@@ -1,4 +1,4 @@
-# Getting Started with API
+## Getting Started with API
 
 This project requires to be registered on Movie API: https://www.themoviedb.org/ .
 After your registration done you will get specific API-key.
